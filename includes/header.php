@@ -26,6 +26,12 @@
                         <li class="nav-item text-center">
                             <a class="nav-link" href="/app_consulta_php_mvc/about">Sobre nosotros</a>
                         </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="/app_consulta_php_mvc/register/register">Regístrarse</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="/app_consulta_php_mvc/login/authenticate">Inicia sesión</a>
+                        </li>
                         <!-- <li class="nav-item dropdown text-center">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="">
                                 Dropdown

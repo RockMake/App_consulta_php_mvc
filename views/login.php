@@ -9,9 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body transition-style="in:circle:top-right">
+<body>
     <div class="container">
-        <div class="card">
+        <div class="card" transition-style="in:circle:top-right">
             <h1 class=" card-header">Iniciar Sesión</h1>
             <form method="post" action="/app_consulta_php_mvc/login/authenticate">
                 <?php if (isset($status_message)) echo $status_message; ?>

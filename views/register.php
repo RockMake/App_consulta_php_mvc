@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" transition-style="in:circle:top-right">
         <div class="card">
             <h1 class="card-header">Registro</h1>
             <form method="post" action="/app_consulta_php_mvc/register/register" onsubmit="return validarRegistro()">
