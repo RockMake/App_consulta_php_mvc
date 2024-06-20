@@ -33,6 +33,9 @@ if ($uri === '/' || $uri === '/app_consulta_php_mvc/' || $uri === '/home') {
     $controller->index();
 } elseif ($uri === '/app_consulta_php_mvc/result/search') {
     $controller = new ResultsController($userModel);
+} elseif ($uri === '/app_consulta_php_mvc/about') {
+    $controller = new AboutController();
+    $controller->index();
 } else {
     header("HTTP/1.1 404 Not Found");
     echo "404 Not Found";

@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost:3308';
-$db = 'app_consulta';
+$db = 'app_bd';
 $user = 'root';
 $pass = '';
 

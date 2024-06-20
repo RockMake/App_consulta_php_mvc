@@ -20,12 +20,14 @@ class RegisterController
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $data = [
-                $_POST['tipo_identificacion'],
-                $_POST['numero_identificacion'],
                 $_POST['correo_electronico'],
+                $_POST['numero_identificacion'],
+                $_POST['tipo_identificacion'],
                 $_POST['nombres'],
                 $_POST['apellidos'],
                 $_POST['sexo'],
+                $_POST['madre_cabeza_hogar'],
+                $_POST['rango_edad_hijos'],
                 $_POST['fecha_nacimiento'],
                 $_POST['departamento_residencia'],
                 $_POST['municipio_residencia'],

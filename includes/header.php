@@ -3,12 +3,11 @@
 
 <head>
     <title>App_consultas</title>
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar" style="background-color: transparent !important;">
+    <nav class="navbar navbar-light bg-light" style="background-color: transparent !important;">
         <div class="container-fluid">
             <a class="navbar-brand" href="/app_consulta_php_mvc/">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -25,9 +24,9 @@
                             <a class="nav-link active" aria-current="page" href="/app_consulta_php_mvc/">Pagina de Inicio</a>
                         </li>
                         <li class="nav-item text-center">
-                            <a class="nav-link" href="/app_consulta_php_mvc/views/about.php">Sobre nosotros</a>
+                            <a class="nav-link" href="/app_consulta_php_mvc/about">Sobre nosotros</a>
                         </li>
-                        <li class="nav-item dropdown text-center">
+                        <!-- <li class="nav-item dropdown text-center">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="">
                                 Dropdown
                             </a>
@@ -39,7 +38,7 @@
                                 </li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>

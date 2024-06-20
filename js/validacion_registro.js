@@ -25,3 +25,28 @@ function mostrarTipoDiscapacidad() {
         tipoDiscapacidad.style.display = "none";
     }
 }
+
+
+function mostrarMadreCabezaHogar() {
+    var sexoSelect = document.getElementById("sexo");
+    var madreCabezaHogarDiv = document.getElementById("madreCabezaHogar");
+
+    if (sexoSelect.value === "femenino") {
+        madreCabezaHogarDiv.style.display = "block";
+    } else {
+        madreCabezaHogarDiv.style.display = "none";
+        // Si el sexo no es femenino, también ocultamos el campo de rango de edad
+        document.getElementById("edadHijos").style.display = "none";
+    }
+}
+
+function mostrarEdadHijos() {
+    var madreCabezaHogarSelect = document.getElementById("madre_cabeza_hogar");
+    var edadHijosDiv = document.getElementById("edadHijos");
+
+    if (madreCabezaHogarSelect.value === "si") {
+        edadHijosDiv.style.display = "block";
+    } else {
+        edadHijosDiv.style.display = "none";
+    }
+}
